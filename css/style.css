@@ -1,0 +1,170 @@
+::selection {
+  background: #ffb7b7; /* WebKit/Blink Browsers */
+}
+body{
+  font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+body ul, h1{
+  margin: 0px;
+}
+body ul {
+  list-style-type: none;
+  overflow: auto;
+  padding: 0px 10%;
+
+}
+
+body header{
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+footer{
+  padding: 50px;
+  opacity: 0.9;
+  color:#95ADB6;
+}
+
+footer a{
+  color:#95ADB6;
+}
+.font-title{
+    font-size: 85px;
+    text-align: center;
+    padding-top: 270px;
+    color: #940b52;
+    font-weight: normal;
+}
+
+.title{
+  font-family: 'Merienda One', cursive;
+}
+
+.sub-title{
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+  font-size: 20px;
+}
+
+.my-menu .title-menu li{
+  color: #496F7B;
+  cursor: pointer;
+}
+.my-menu{
+  background: #283e4a;
+  color: white;
+}
+.my-menu li {
+  padding:20px;
+  float: left;
+  color:white;
+}
+
+.my-menu-over{
+  color:#0093bb !important;
+}
+
+.cover-section{
+  padding-top: 60px;
+}
+.cover {
+  background-image: url("../img/blog.jpg");
+  background-size: 100%  100%;
+  opacity: 0.7;
+}
+
+.cover .img{
+  height: 650px;
+}
+
+
+.acerca-mi p{
+    margin: 80px 16%;
+    line-height: 2.5;
+    font-weight: lighter;
+    font-size: 17px;
+}
+
+.profile-pic{
+  text-align: center;
+}
+
+.profile-pic img{
+  height: 300px;
+  border-radius: 50%;
+  padding-top: 30px;
+}
+
+.terms-conds{
+  float: right;
+  width: 20%;
+}
+
+.social-media{
+  float: left;
+width: 40%;
+text-align: center;
+font-size: 25px;
+}
+
+
+.my-menu-over{
+  color:#0093bb;
+}
+
+/*Cards posts only index.html*/
+.card{
+  border: dashed 1px darkgrey;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 20px 35px;
+
+}
+
+.posts{
+  margin-top: 30px;
+  margin-bottom:  30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 60%;
+}
+
+.card h4{
+  font-style: italic;
+  color: #cccd95;
+  font-size: 30px;
+}
+
+.card p{
+  padding-top: 20px;
+  line-height: 1.5;
+  color: #6B6570;
+font-size: 16px;
+}
+.card small{
+  color:#9f9999;
+  font-style: italic;
+}
+
+.expand-post{
+  display: none;
+  transition: 2s;
+}
+
+
+article{
+  padding-top: 20px;
+}
+
+
+.tags span{
+  background-color: #ffe9e9;
+  color: darksalmon;
+  padding: 2px;
+  font-size: 12px;
+  border-radius: 4px;
+  font-weight: normal;
+}
